@@ -1,0 +1,15 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui"
+          onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="customTab" label="Excellent AddIn">
+        <group id="group1" label="Operations">
+          <button id="btnTest"
+                  label="Test Button"
+                  onAction="OnTestButtonClick"
+                  imageMso="HappyFace"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
